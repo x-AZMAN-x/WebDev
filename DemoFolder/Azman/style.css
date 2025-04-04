@@ -1,0 +1,21 @@
+/* CSS Selector */
+/* Element Selector */
+body{
+    background-color: khaki;
+}
+/* ID Selector */
+#title{
+    background-color: chocolate;
+}
+/* Group ID Selector */
+#welcome,#webs{
+    background-color: burlywood;
+}
+/* Class Selector */
+.reviews{
+    background-color: crimson;
+}
+/* Group Class Selectors */
+.timings,.contacts{
+    background-color: blueviolet;
+}
