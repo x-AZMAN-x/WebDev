@@ -2,27 +2,58 @@
 /* Element Selector */
 head{
     background-color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: double;
+    text-shadow: 2px 2px 2px
 }
 body{
     background-color: khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 900;
+    text-decoration: underline;
 }
 /* ID Selector */
 #title{
     background-color: chocolate;
     color: azure;
+    font-family: monospace;
+    font-style: unset;
+    font-size: 17px;
+    font-weight: 800;
+    text-decoration: overline;
 }
 /* Group ID Selector */
 #welcome,#webs{
     background-color: burlywood;
     color: rgb(56, 77, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: wavy;
 }
 /* Class Selector */
 .reviews{
     background-color:chartreuse;
     color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    font-size: small;
+    font-weight: 600;
+    text-decoration: line-through;
 }
 /* Group Class Selectors */
 .timings,.contacts{
     background-color: blueviolet;
     color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: dotted;
 }
