@@ -1,6 +1,10 @@
 /* CSS Selector */
+body{
+    background-color: blanchedalmond;
+}
 /* Element Selector */
-head{
+#title{
+    width: 900px;
     background-color: brown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
@@ -9,7 +13,12 @@ head{
     text-decoration: double;
     text-shadow: 2px 2px 2px
 }
-body{
+#navbar{
+    height: 150px;
+    width: 300px;
+    border: 3px solid blanchedalmond;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
     background-color: khaki;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
@@ -18,7 +27,11 @@ body{
     text-decoration: underline;
 }
 /* ID Selector */
-#title{
+#teachers{
+    width: 300px;
+    border: 3px solid blue;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
     background-color: chocolate;
     color: azure;
     font-family: monospace;
@@ -28,7 +41,10 @@ body{
     text-decoration: overline;
 }
 /* Group ID Selector */
-#welcome,#webs{
+#reviews,#webs{
+    border: 3px solid coral;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
     background-color: burlywood;
     color: rgb(56, 77, 78);
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +54,10 @@ body{
     text-decoration: wavy;
 }
 /* Class Selector */
-.reviews{
+#sellers{
+    border: 3px dotted darkkhaki;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
     background-color:chartreuse;
     color: red;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,7 +67,11 @@ body{
     text-decoration: line-through;
 }
 /* Group Class Selectors */
-.timings,.contacts{
+#timings,#contacts{
+    width: 300px;
+    border: 5px solid green;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
     background-color: blueviolet;
     color: aquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -56,4 +79,16 @@ body{
     font-size: 18px;
     font-weight: 500;
     text-decoration: dotted;
+}
+#head{
+    border: 4px dotted blueviolet;
+    margin: 70px 25px 50px 60px;
+    padding: 30px 40px 50px 60px;
+    background-color: burlywood;
+    color: darkgoldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: wavy;
 }
