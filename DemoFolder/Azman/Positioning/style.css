@@ -1,0 +1,31 @@
+body{
+    background-color: burlywood;
+}
+div{
+    height: 300px;
+    width: 300px;
+    border: 3px dotted forestgreen;
+}
+#static{
+    background-color: cornsilk;
+    position: static;
+    margin: 50px;
+}
+#relative{
+    background-color: darkturquoise;
+    position: relative;
+    margin: 50px;
+}
+#absolute{
+    background-color: azure;
+    margin: 70px 30px 40px 100px;
+}
+#sticky{
+    background-color: coral;
+    position: sticky;
+    top: 30px;
+}
+#fixed{
+    background-color: beige;
+    position: fixed;
+}
