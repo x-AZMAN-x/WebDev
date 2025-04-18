@@ -44,7 +44,7 @@ body{
     text-decoration: overline;
 }
 /* Group ID Selector */
-#reviews,#webs{
+#reviews{
     border: 3px solid coral;
     margin: 70px 25px 50px 60px;
     padding: 30px 40px 50px 60px;
@@ -55,6 +55,12 @@ body{
     font-size: 13px;
     font-weight: 700;
     text-decoration: wavy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 /* Class Selector */
 #sellers{
@@ -68,6 +74,12 @@ body{
     font-size: small;
     font-weight: 600;
     text-decoration:overline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 /* Group Class Selectors */
 #timings,#head{
@@ -83,7 +95,7 @@ body{
     font-weight: 500;
     text-decoration: dotted;
 }
-#contacts{
+#contacts,#webs{
     height: 100px;
     border: 4px dotted blueviolet;
     margin: 70px 25px 50px 60px;
