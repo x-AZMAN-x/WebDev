@@ -1,0 +1,22 @@
+body{
+    background-color: darkmagenta;
+}
+#item1{grid-area:header}
+#item2{grid-area:sidebar}
+#item3{grid-area:main}
+#item4{grid-area:footer}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: "header header header header header" "sidebar main main main main" "sidebar footer footer footer footer";
+    padding: 10px;
+    margin: 10px;
+}
+#container div{
+    border: 3px solid;
+    padding: 30px;
+    margin: 10px;
+    color: bisque;
+    background-color: darkcyan;
+    text-align: center;
+}
