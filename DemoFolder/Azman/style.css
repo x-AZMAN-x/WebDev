@@ -1,111 +1,122 @@
 /* CSS Selector */
-body{
-    background-color: blanchedalmond;
+body {
+  background-color: blanchedalmond;
 }
 /* Element Selector */
-#title{
-    width: 900px;
-    background-color: brown;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
-    font-size: 20px;
-    font-weight: bolder;
-    text-decoration: double;
-    text-shadow: 2px 2px 2px
+#title {
+  width: 900px;
+  background-color: brown;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: double;
+  text-shadow: 2px 2px 2px;
 }
-#navbar{
-    height: 20px;
-    border: 3px solid blanchedalmond;
-    margin: 70px 25px 50px 60px;
-    padding: 15px 40px 50px 60px;
-    background-color: khaki;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 17px;
-    font-weight: 900;
-    text-decoration: underline;
-    position: sticky;
-    top: 0px;
-    text-align: center;
-    margin: 10px;
+#navbar {
+  height: 20px;
+  border: 3px solid blanchedalmond;
+  margin: 70px 25px 50px 60px;
+  padding: 15px 40px 50px 60px;
+  background-color: khaki;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 900;
+  text-decoration: underline;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  margin: 10px;
 }
 /* ID Selector */
-#teachers{
-    width: 300px;
-    border: 3px solid blue;
-    margin: 70px 25px 50px 60px;
-    padding: 30px 40px 50px 60px;
-    background-color: chocolate;
-    color: azure;
-    font-family: monospace;
-    font-style: unset;
-    font-size: 17px;
-    font-weight: 800;
-    text-decoration: overline;
+#teachers {
+  width: 630px;
+  border: 3px solid blue;
+  margin: 70px 25px 50px 60px;
+  padding: 30px 40px 50px 60px;
+  background-color: chocolate;
+  color: azure;
+  font-family: monospace;
+  font-style: unset;
+  font-size: 17px;
+  font-weight: 800;
+  text-decoration: overline;
 }
 /* Group ID Selector */
-#reviews{
-    border: 3px solid coral;
-    margin: 70px 25px 50px 60px;
-    padding: 30px 40px 50px 60px;
-    background-color: burlywood;
-    color: rgb(56, 77, 78);
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: initial;
-    font-size: 13px;
-    font-weight: 700;
-    text-decoration: wavy;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+#reviews {
+  width: 500px;
+  border: 3px solid coral;
+  margin: 100px 50px;
+  padding: 30px 40px 50px 60px;
+  background-color: burlywood;
+  color: rgb(56, 77, 78);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: wavy;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 /* Class Selector */
-#sellers{
-    border: 3px dotted darkkhaki;
-    margin: 70px 25px 50px 60px;
-    padding: 30px 40px 50px 60px;
-    background-color:chartreuse;
-    color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: inherit;
-    font-size: small;
-    font-weight: 600;
-    text-decoration:overline;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+#sellers {
+    width: 630px;
+  border: 3px dotted darkkhaki;
+  margin: 70px 25px 50px 60px;
+  padding: 30px 40px 50px 60px;
+  background-color: chartreuse;
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: inherit;
+  font-size: small;
+  font-weight: 600;
+  text-decoration: overline;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 /* Group Class Selectors */
-#timings,#head{
-    width: 300px;
-    border: 5px solid green;
-    margin: 70px 25px 50px 60px;
-    padding: 30px 40px 50px 60px;
-    background-color: blueviolet;
-    color: aquamarine;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: dotted;
+#timings,
+#head {
+  width: 630px;
+  border: 5px solid green;
+  margin: 70px 25px 50px 60px;
+  padding: 30px 40px 50px 60px;
+  background-color: blueviolet;
+  color: aquamarine;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: dotted;
 }
-#contacts,#webs{
-    height: 100px;
-    border: 4px dotted blueviolet;
-    margin: 70px 25px 50px 60px;
-    padding: 0px 0px 50px 50px;
-    background-color: burlywood;
-    color: darkgoldenrod;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: initial;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: wavy;
-    position: static;
+#contacts,
+#webs {
+  width: 675px;
+  height: 100px;
+  border: 4px dotted blueviolet;
+  margin: 70px 25px 50px 60px;
+  padding: 0px 0px 50px 50px;
+  background-color: burlywood;
+  color: darkgoldenrod;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: initial;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: wavy;
+  position: static;
+}
+.sidebar {
+
 }
