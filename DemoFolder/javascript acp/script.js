@@ -1,0 +1,11 @@
+const nam = " Azman";
+const age = "I Am"
+const age1 = 11;
+const hobby = "I Love"
+const hobby1 = " Playing Football,";
+const hobby2 = " Playing Games And";
+const hobby3 = " Coding"
+const sibling = "I Have"
+const sibling1 = " 1"
+const sibling2 = " Older Sister"
+document.getElementById("result").innerHTML = age + nam + "<br>" + age + age1 + "<br>" + hobby + hobby1 + hobby2 + hobby3 + "<br>" + sibling + sibling1 + sibling2;
