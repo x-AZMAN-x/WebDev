@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing the CSS properties of HTML tags dynamically</title>
+    <style>
+        h1,h3{
+           text-align: center;
+           color: blue;
+        }
+        .square{
+            border: 10px solid firebrick;
+            height: 250px;
+            width: 250px;
+            margin: auto;
+        }
+        .buttons{
+            padding: 20px;
+            width: 200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Changing the CSS properties of HTML tags dynamically</h1>
+    <h3>Make Changes To The Square</h3>
+    <div class="square"></div>
+    <div class="buttons">
+        <button onclick="changeToCircle()">Change To Circle</button>
+        <button onclick="changeToSquare()">Change To Square</button>
+        <button onclick="hide()">Hide</button>
+        <button onclick="show()">Show</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
