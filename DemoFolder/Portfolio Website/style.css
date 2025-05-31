@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+nav{
+    background-color: crimson;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin-right: 10px;
+}
+li a{
+    display: block;
+    text-decoration: none;
+}
+li a:hover{
+    color: cyan;
+}
