@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+.topnav{
+    overflow: hidden;
+    background-color: cornflowerblue;
+    color: darkred;
+    max-width: 1200px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: deepskyblue;
+    border-radius: 10px;
+    border: none;
+}
+li a.active{
+    background-color: darkblue;
+    color: white;
+}
