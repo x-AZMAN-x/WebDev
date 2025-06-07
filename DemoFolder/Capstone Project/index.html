@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capstone Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="topnav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contacts</a></li>
-        </nav>
+      <nav class="topnav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contacts</a></li>
+      </nav>
     </header>
     <main>
-
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="media/1.png" alt="img1" />
+        </div>
+        <div class="carousel-slide">
+          <img src="media/2.png" alt="img2" />
+        </div>
+        <div class="carousel-slide">
+          <img src="media/3.png" alt="img3" />
+        </div>
+        <div class="carousel-slide">
+          <img src="media/4.png" alt="img4" />
+        </div>
+        <div class="carousel-slide">
+          <img src="media/5.png" alt="img5" />
+        </div>
+        <button class="carousel-btn prev-btn" onclick="moveSlide(-1)">
+          &#10094;
+        </button>
+        <button class="carousel-btn next-btn" onclick="moveSlide(1)">
+          &#10095;
+        </button>
+      </div>
     </main>
     <footer>
-        <p>&copy; All Rights Reserved To Azman, 2025</p>
+      <p>&copy; All Rights Reserved To Azman, 2025</p>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

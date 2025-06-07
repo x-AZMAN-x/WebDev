@@ -37,3 +37,40 @@ li a.active{
     background-color: darkblue;
     color: white;
 }
+.carousel-container{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    border: none;
+}
+.carousel-slide{
+    display: none;
+    width: 100%;
+}
+.carousel-slide img{
+    width: 100%;
+    height: auto;
+}
+.carousel-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: chartreuse;
+    color: forestgreen;
+    border: none;
+    cursor: pointer;
+    padding: 50px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.carousel-btn :hover{
+    background-color: lightcoral;
+}
+.prev-btn{
+    left: 10px;
+}
+.next-btn{
+    right: 10px;
+}
