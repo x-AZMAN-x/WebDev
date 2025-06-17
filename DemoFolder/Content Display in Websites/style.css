@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    color: blueviolet;
+    overflow-x: hidden;
+}
+.hero{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg rgba(22, 201, 255, 0.945)rgba(23, 20, 218, 0.89));
+    color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero-content{
+    max-width: 800px;
+    padding: 0 20px;
+    z-index: 2;
+}
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+.hero p{
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+.animated-text{
+    display: inline-block;
+    position: relative;
+}
+.animated-text span{
+    display: inline-block;
+}
+.typewriter{
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(40, end)
+    blink-caret 0.75s step-end infinite;
+}
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
+}
+@keyframes blink-caret{
+    from,to {border-color: transparent;}
+    50% {border-color: white;}
+}
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+@keyframes fadeIn{
+    to {opacity: 1;}
+}
